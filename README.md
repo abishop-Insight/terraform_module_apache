@@ -2,7 +2,7 @@ Terraform module which creates an Apache EC2 INSTANCE resource on AWS.
 
 Just a test module to practice for the Terraform Associate exam.
 
-'''hcl
+```hcl
 terraform {
 }
 
@@ -22,4 +22,4 @@ module "apache" {
 output "public_ip" {
   value = module.apache.public_ip
 }
-'''
+```
